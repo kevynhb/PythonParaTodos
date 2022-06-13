@@ -132,7 +132,7 @@ None -** nenhum
 
 Operadores são símbolos especiais que representam operações como adição e multiplicação. Os valores em que o operador é aplicado são chamados **operandos**.
 
-Os operadores **+, -, *, /, e **** realizam respectivamente adição, subtração, multiplicação, divisão, e exponenciação, como nos seguintes exemplos:*333
+Os operadores +, -, *, /, e ** realizam respectivamente adição, subtração, multiplicação, divisão, e exponenciação, como nos seguintes exemplos:*333
 
 20+32
 hora-1
