@@ -2,7 +2,9 @@
 
 Estudos do livro python para todos do autor: Charles R. Severance
 
-Contexto: 
+// Anotando conhecimentos/ideias que preciso fixar mais na memória.
+// Material para consulta, reler conceitos.
+
 
 # Explorando Dados com Python 3
 
@@ -57,3 +59,95 @@ Novamente em todos os três tipos de erros, Python está tentando ao máximo ape
 **semântica:** O significado de um programa.
 
 [1.14 Exercícios](https://www.notion.so/1-14-Exerc-cios-00347eae92604b8580c308330c280859)
+
+# Cap02 - Variáveis, expressões e declarações
+
+### Tipo
+
+Quando você digita um inteiro muito grande, você deve estar tentado a usar uma
+vírgula entre grupos de três dígitos 1,000,000. Isso não é um inteiro válido em
+Python, mas é válido:
+
+> print(1,000,000)
+1 0 0
+> 
+
+Bom, não é o que esperávamos! Python interpreta **1,000,000** como uma sequência de inteiros separada por vírgulas, a qual é mostrada com um espaço entre cada inteiro.
+
+**index{erro semântico}**
+
+Esse é o primeiro exemplo em que vemos um erro semântico: o código é executado sem mostrar nenhuma mensagem de erro, mas não faz a coisa “certa”.
+
+## Variáveis
+
+Uma variável é um nome que faz referência a um valor.
+
+> **message** = 'E agora, para algo completamente diferente'
+**n** = ****17
+**pi** = 3.1415926535897931
+> 
+
+Valores atribuídos as variáveis.
+
+### Python reserva 33 palavras-chave para o seu uso:
+
+**and -** e
+**as -** como
+**assert -** afirmar
+**break -** parar
+**class -** Classe
+**continue -** Prosseguir
+**def 
+del
+elif
+else -** senão
+**except -** exceto
+**False
+finally -** finalmente
+**for -** por
+**from -** a partir de
+**global 
+if -** e se
+**import -** import
+
+**in -** dentro
+**is -** é
+**lambda 
+None -** nenhum
+**nonlocal -** não local
+**not -** não
+**or -** ou 
+**pass -** passar
+**raise -** levantar
+**return -** retorna
+**True -** verdadeiro
+**try -** tentar
+**while -** enquanto
+**with -** com 
+**yield -** colheita
+
+---
+
+### Operadores e Operandos
+
+Operadores são símbolos especiais que representam operações como adição e multiplicação. Os valores em que o operador é aplicado são chamados **operandos**.
+
+Os operadores **+, -, *, /, e **** realizam respectivamente adição, subtração, multiplicação, divisão, e exponenciação, como nos seguintes exemplos:*333
+
+20+32
+hora-1
+hora*60+minuto
+minuto/60
+5**2
+(5+9)*(15-7)
+
+Resposta em Python 3.x use a divisão inteira(//inteiro).
+minute = 59
+minute//60
+0
+
+Em Python 3.x a divisão de números inteiros funciona de maneira muito mais semelhante ao que você esperaria se colocasse a expressão em uma calculadora.
+
+### Expressões
+
+Uma **expressão** é uma combinação de valores, variáveis e operandos. um valor por si só, é considerado uma expressão, assim como uma variável.
